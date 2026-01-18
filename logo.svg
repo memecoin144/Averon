@@ -1,1 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="avnGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6CA0FF"/>
+      <stop offset="100%" stop-color="#3B5EDB"/>
+    </linearGradient>
+  </defs>
 
+  <rect width="512" height="512" rx="96" fill="#0B0F1A"/>
+
+  <circle cx="256" cy="256" r="150" fill="url(#avnGradient)" opacity="0.15"/>
+
+  <path d="M256 140 L360 360 H320 L256 220 L192 360 H152 Z"
+        fill="url(#avnGradient)"/>
+
+  <text x="256" y="410"
+        font-size="56"
+        text-anchor="middle"
+        fill="#6CA0FF"
+        font-family="Arial, Helvetica, sans-serif"
+        font-weight="700">
+    AVN
+  </text>
+</svg>
